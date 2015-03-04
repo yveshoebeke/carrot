@@ -1,0 +1,45 @@
+table {
+	border-collapse:collapse;
+}
+h3, h4 {
+	text-decoration:underline;
+}
+td, th {
+	padding:4px;
+}
+th {
+	background-color: #DDDDDD;
+}
+td.delete_queue, td.purge_queue, td.delete_exchange {
+	background-color:#EEEEEE;
+	cursor:pointer;
+}
+td.delete_queue:hover, td.purge_queue:hover, td.delete_exchange:hover {
+	background-color:red;
+}
+p.username, p.datetime {
+	font-size:85%;
+	margin:2px 0 0 0;
+	color:#333333;
+}
+ul.main_menu {
+	width:240px;
+	border:1px solid #CCCCCC;
+	padding:5px 5px 5px 10px;
+}
+li {
+	list-style-type:none;
+}
+li.menu_separator {
+	color: #CCCCCC;
+}
+li.menu_item {
+	cursor:pointer;
+	color:blue;
+}
+li.menu_item:hover {
+	text-decoration:underline;
+}
+#carrot-message {
+	background-color:#FCDFF1;
+}
