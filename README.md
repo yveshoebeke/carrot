@@ -152,7 +152,7 @@ Note: The application will automatically bind this new queue to the specified ex
 
 
  
-Send me oa Message:
+Send a Message:
 -------------------	
 To send a message you will need to provide the following:
 
