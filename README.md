@@ -1,8 +1,9 @@
-# carrot
+# Carrot
+
 Carrot is a RabbitMQ API based AQMP panel.
 
 Preamble:
-=========
+---------
 Follow the next steps to create your own RabbitMQ AMQP virtual host:
 
 Note: The following are bash commands, and, you will need SU privileges for this.
@@ -33,7 +34,7 @@ http://www.rabbitmq.com/man/rabbitmqctl.1.man.html
 eebelow where to enter you {your username} {your password} and {your vhost name} in config.ini
 
 1) Access:
-==========
+----------
 Access credentials are currently provided via the config.ini file that resides in the application root.
 
 You will need to alter your vhost and authorization parameters to reflect yours:
@@ -57,7 +58,7 @@ port = "15672"
 ;------------------------------
 
 2) Main Menu:
-=============
+-------------
 When activating the application you will be presented with the Main Menu, as follows:
 
 a) Get User Info:
