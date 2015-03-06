@@ -5,8 +5,6 @@ Carrot.
 Carrot is a web based application that lets you communicate with the RabbitMQ virtual host that
 is set up for you.
 
-- To dos: Expand this information in a document format with scereen shots.
-
 Preamble:
 =========
 Follow the next steps to create your own RabbitMQ AMQP virtual host:
@@ -36,7 +34,12 @@ You can find the man page for rabbitmqctl here:
 
 http://www.rabbitmq.com/man/rabbitmqctl.1.man.html
 
-eebelow where to enter you {your username} {your password} and {your vhost name} in config.ini
+
+Warning: Resetting the RabbitMQ node (rabbitmqctl reset ..and.. rabitmqctl force-reset) will remove the node from 
+any cluster it belongs to, removes all data from the management database, such as configured users and vhosts, 
+and deletes all persistent messages. 
+
+See below where to enter you {your username} {your password} and {your vhost name} in config.ini
 
 1) Access:
 ==========
