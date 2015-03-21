@@ -4,7 +4,7 @@ Carrot is a RabbitMQ API based AQMP panel.
 
 Preamble:
 ---------
-Follow the next steps to create your own RabbitMQ AMQP virtual host:
+_Follow the next steps to create your own RabbitMQ AMQP virtual host:_
 
 Note: The following are bash commands, and, you will need SU privileges for this.
 
