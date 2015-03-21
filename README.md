@@ -1,7 +1,9 @@
 # Carrot
 
 Carrot is a RabbitMQ API based AQMP panel.
+
 ![](https://github.com/yveshoebeke/carrot/blob/master/assets/img/rabbit-with-carrot.jpg)
+
 Preamble:
 ---------
 _Follow the next steps to create your own RabbitMQ AMQP virtual host:_
